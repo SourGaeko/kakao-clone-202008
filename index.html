@@ -9,7 +9,7 @@
 <body>
     <div class="status-bar">
         <div class="status-bar__column">
-            <span>No Services</span>
+            <span>No Service</span>
             <i class="fas fa-wifi"></i>
         </div>
         <div class="status-bar__column">
@@ -28,9 +28,9 @@
         </p>
     </header>
 
-    <form id="login-form">
-        <input type="text" placeholder="Email or phone number" />
-        <input type="password" placeholder="Password" />
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" required type="text" placeholder="Email or phone number" />
+        <input name="password" required type="password" placeholder="Password" />
         <input type="submit" value="Log In" /> 
         <a href="#">Find Kokoa Account or Password</a>
     </form>
