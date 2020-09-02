@@ -5,8 +5,11 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 5px 3px;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    padding-bottom: 15px;
     font-weight: 600;
+    background-color: white;
 }
 
 .status-bar__column{
