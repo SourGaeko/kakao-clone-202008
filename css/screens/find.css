@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .screen-header-icons-cog__notification {
     position: absolute;
     left: 20px;
@@ -130,4 +131,10 @@
 
 .open-post__heart-count span {
     margin-left: 3px;
+=======
+.screen-hearder__icons-fa-cog-notification {
+    position: absolute;
+    left: 450px;
+    bottom: 25px;
+>>>>>>> Stashed changes
 }
